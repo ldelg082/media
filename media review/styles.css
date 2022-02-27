@@ -1,0 +1,133 @@
+body {
+  background: rgb(246,157,94);
+  background: radial-gradient(circle, rgba(246,157,94,1) 43%, rgba(240,107,202,1) 100%);
+}
+
+#demobox {
+  background-color: #f69d5e;
+  padding: 10px;
+  border: 10px #334fe1;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: brown;
+}
+
+img.posts {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.animate {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  width: 220px;
+  height: 220px;
+  float: left;
+  animation:shake 1.5s linear infinite;
+}
+
+ul.menu li {
+  width: 50px;
+  display: inline;
+  padding: 5px;
+  background-color: #f390d6;
+  margin-right: 10px;
+  color: brown;
+  border-radius: 1px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  display: block;
+  width: auto;
+  height: 20px;
+  text-align: center;
+}
+
+div.headline {
+  font-family: 'Scheherazade New', serif;
+  color: brown;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div.text1 {
+  float: right;
+}
+
+h1 {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 125px;
+}
+
+h3 {
+  margin-left: 20px;
+  margin-right: 120px;
+}
+
+
+div.content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+img.rina-gif {
+  float: left;
+  padding: 10px;
+  padding-top: 10px;
+
+}
+
+img.phoebe-gif {
+  float: right;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+img.raveena-gif {
+  float: left;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+img.sofya-gif {
+  float: right;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+img.image {
+ display: block;
+ margin-left: 10px;
+ width: 900px;
+ height: 900px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+    }
+  }
+
+  @keyframes shake {
+  0% {transform: rotate(0)}
+  25% {transform: rotate(-2deg)}
+  50% {transform: rotate(0)}
+  75% {transform: rotate(2deg)}
+  100% {transform: rotate(0)}
+}
